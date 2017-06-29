@@ -7,5 +7,19 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <!--Activity theme-->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="AuthTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
 
+    <!--Drawer header-->
+    <style name="login_register_button">
+        <item name="android:background">@color/nav_login_register_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/nav_header_text</item>
+    </style>
 </resources>

@@ -3,4 +3,45 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="splashDialog">@color/base_tint</color>
+
+
+    <!-- Drawer Header-->
+    <color name="nav_header_ll_bg">#90000000</color>
+    <color name="nav_login_register_button">@color/transperent</color>
+    <color name="nav_header_text">@color/white</color>
+    <!--Drawer items-->
+    <color name="nav_drawer_item_icon_normal">@color/base_tint</color>
+    <color name="nav_drawer_item_text_normal">@color/black</color>
+
+    <!--Drawer Footer-->
+    <color name="nav_footer_ll_bg">#f5f3ed</color>
+    <color name="nav_footer_text_normal">@color/black</color>
+    <color name="nav_footer_divide">@color/base_tint</color>
+
+    <!-- Inquire Fragment-->
+    <color name="inquire_text">@color/black</color>
+    <color name="inquire_expand_view_bg">#f5f3ed</color>
+
+
+
+    <color name="base_tint">#8A000000</color>
+    <!-- Grey -->
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#bdbdbd</color>
+
+    <!-- White-->
+    <color name="white">#FFFFFFFF</color>
+    <!-- Blue -->
+    <color name="blue_500">#2196f3</color>
+    <!-- Black-->
+    <color name="black">#ff000000</color>
+    <color name="transperent">#00000000</color>
+
+    <!--kakao-->
+    <color name="kakao_brown">#351c1b</color>
+
+
 </resources>

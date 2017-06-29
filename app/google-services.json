@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "188092518596",
+    "firebase_url": "https://seller-13a47.firebaseio.com",
+    "project_id": "seller-13a47",
+    "storage_bucket": "seller-13a47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188092518596:android:0f463acde5379bbb",
+        "android_client_info": {
+          "package_name": "com.example.r20np.seller"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNoN9iIxRrn5NOMUb5InLXbZ8_u0lZWqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

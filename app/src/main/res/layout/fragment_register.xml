@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="30"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerFragmentTitle"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_weight="10"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/login_id_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_email_hint"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textSize="20sp">
+            <requestFocus/>
+        </EditText>
+
+        <EditText
+            android:id="@+id/login_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_password_hint"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:maxLines="1"
+
+            />
+
+        <EditText
+            android:id="@+id/login_password_confirm_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_password_confirm_hint"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            />
+        <EditText
+            android:id="@+id/regitser_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_displayName_hint"
+            android:textSize="20sp"
+            android:maxLines="1"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/login_register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_btn"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+</LinearLayout>
